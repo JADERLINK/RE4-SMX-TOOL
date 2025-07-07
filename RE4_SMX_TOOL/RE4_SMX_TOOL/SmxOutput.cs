@@ -14,7 +14,7 @@ namespace RE4_SMX_TOOL
             var inv = System.Globalization.CultureInfo.InvariantCulture;
 
             var text = info.CreateText();
-            text.WriteLine(Program.headerText());
+            text.WriteLine(MainProgram.HeaderText());
             text.WriteLine();
             text.WriteLine();
 

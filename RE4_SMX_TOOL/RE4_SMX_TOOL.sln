@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RE4_SMX_TOOL_PS2", "RE4_SMX_TOOL_PS2\RE4_SMX_TOOL_PS2.csproj", "{0B9F95B9-E94A-45E1-8C73-BB0D7B787802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RE4_SMX_TOOL_UHD", "RE4_SMX_TOOL_UHD\RE4_SMX_TOOL_UHD.csproj", "{BC0DD176-BE15-48EF-AD3E-3E6A9EDBDA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RE4_SMX_TOOL_BIG", "RE4_SMX_TOOL_BIG\RE4_SMX_TOOL_BIG.csproj", "{0D5BE29C-48E0-437A-84B1-DFCF5399E728}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SimpleEndianBinaryIO", "SimpleEndianBinaryIO\SimpleEndianBinaryIO.shproj", "{5DDB0D8F-D1EA-479F-8FAC-BE2B5C6BAB65}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RE4_SMX_TOOL", "RE4_SMX_TOOL\RE4_SMX_TOOL.shproj", "{DAF6828C-C94F-43A4-90EC-7D1866574444}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RE4_SMX_TOOL\RE4_SMX_TOOL.projitems*{0b9f95b9-e94a-45e1-8c73-bb0d7b787802}*SharedItemsImports = 4
+		SimpleEndianBinaryIO\SimpleEndianBinaryIO.projitems*{0b9f95b9-e94a-45e1-8c73-bb0d7b787802}*SharedItemsImports = 4
+		RE4_SMX_TOOL\RE4_SMX_TOOL.projitems*{0d5be29c-48e0-437a-84b1-dfcf5399e728}*SharedItemsImports = 4
+		SimpleEndianBinaryIO\SimpleEndianBinaryIO.projitems*{0d5be29c-48e0-437a-84b1-dfcf5399e728}*SharedItemsImports = 4
+		SimpleEndianBinaryIO\SimpleEndianBinaryIO.projitems*{5ddb0d8f-d1ea-479f-8fac-be2b5c6bab65}*SharedItemsImports = 13
+		RE4_SMX_TOOL\RE4_SMX_TOOL.projitems*{bc0dd176-be15-48ef-ad3e-3e6a9edbda7d}*SharedItemsImports = 4
+		SimpleEndianBinaryIO\SimpleEndianBinaryIO.projitems*{bc0dd176-be15-48ef-ad3e-3e6a9edbda7d}*SharedItemsImports = 4
+		RE4_SMX_TOOL\RE4_SMX_TOOL.projitems*{daf6828c-c94f-43a4-90ec-7d1866574444}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B9F95B9-E94A-45E1-8C73-BB0D7B787802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9F95B9-E94A-45E1-8C73-BB0D7B787802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9F95B9-E94A-45E1-8C73-BB0D7B787802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9F95B9-E94A-45E1-8C73-BB0D7B787802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0DD176-BE15-48EF-AD3E-3E6A9EDBDA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0DD176-BE15-48EF-AD3E-3E6A9EDBDA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0DD176-BE15-48EF-AD3E-3E6A9EDBDA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0DD176-BE15-48EF-AD3E-3E6A9EDBDA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5BE29C-48E0-437A-84B1-DFCF5399E728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5BE29C-48E0-437A-84B1-DFCF5399E728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5BE29C-48E0-437A-84B1-DFCF5399E728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5BE29C-48E0-437A-84B1-DFCF5399E728}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2770E64-9D91-46CB-B57B-F46FD99BBCAA}
+	EndGlobalSection
+EndGlobal

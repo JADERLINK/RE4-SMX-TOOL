@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associadas a um assembly.
-[assembly: AssemblyTitle("RE4_SMX_TOOL")]
-[assembly: AssemblyDescription("RE4_SMX_TOOL by JADERLINK")]
+[assembly: AssemblyTitle("RE4_SMX_TOOL_UHD")]
+[assembly: AssemblyDescription("RE4_SMX_TOOL_UHD by JADERLINK")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("JADERLINK")]
-[assembly: AssemblyProduct("RE4_SMX_TOOL")]
-[assembly: AssemblyCopyright("Copyright ©JADERLINK 2024")]
+[assembly: AssemblyProduct("RE4_SMX_TOOL_UHD")]
+[assembly: AssemblyCopyright("Copyright ©JADERLINK 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-[assembly: Guid("396fa8eb-3f53-47ee-bab9-01acc84d9ec7")]
+[assembly: Guid("bc0dd176-be15-48ef-ad3e-3e6a9edbda7d")]
 
 // As informações da versão de um assembly consistem nos quatro valores a seguir:
 //

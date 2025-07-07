@@ -1,8 +1,11 @@
 # RE4_SMX_TOOL
 # by: JADERLINK
-# Version B.1.0.0.0 (2024-02-10)
+# youtube.com/@JADERLINK
+# github.com/JADERLINK
+# Version V.1.1 (2025-07-06)
 
 # Referência de campos para SMX entry de mode 0x00
+# Field reference for SMX entry of mode 0x00
 UseSMXID:000
 Mode:00
 OpacityHierarchy:03
@@ -80,6 +83,7 @@ TextureMovement_Y:0.000000000
 
 
 # Referência de campos para SMX entry de mode 0x01
+# Field reference for SMX entry of mode 0x01
 UseSMXID:001
 Mode:01
 OpacityHierarchy:03
@@ -158,6 +162,7 @@ TextureMovement_Y:0.000000000
 
 
 # Referência de campos para SMX entry de mode 0x02
+# Field reference for SMX entry of mode 0x02
 UseSMXID:002
 Mode:02
 OpacityHierarchy:03

@@ -23,7 +23,16 @@ namespace RE4_SMX_TOOL
             {
                 string line = reader.ReadLine().Trim().ToUpperInvariant();
 
-                if (line == null || line.Length == 0 || line.StartsWith("\\") || line.StartsWith("/") || line.StartsWith("#") || line.StartsWith(":"))
+                if (line == null
+                    || line.Length == 0
+                    || line.StartsWith("\\")
+                    || line.StartsWith("/")
+                    || line.StartsWith("#")
+                    || line.StartsWith(":")
+                    || line.StartsWith("!")
+                    || line.StartsWith("@")
+                    || line.StartsWith("=")
+                    )
                 {
                     continue;
                 }

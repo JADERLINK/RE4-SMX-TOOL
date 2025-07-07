@@ -11,7 +11,7 @@ namespace RE4_SMX_TOOL
         public static string ReturnValidHexValue(string cont)
         {
             string res = "";
-            foreach (var c in cont)
+            foreach (var c in cont.ToUpperInvariant())
             {
                 if (char.IsDigit(c)
                     || c == 'A'
@@ -53,8 +53,7 @@ namespace RE4_SMX_TOOL
                     res = c + res;
                     negative = true;
                 }
-
-                if (char.IsDigit(c))
+                else if (char.IsDigit(c))
                 {
                     res += c;
                 }
@@ -64,7 +63,7 @@ namespace RE4_SMX_TOOL
 
         public static string ReturnValidFloatValue(string cont)
         {
-            bool Dot = false;
+            bool dot = false;
             bool negative = false;
 
             string res = "";
@@ -75,13 +74,12 @@ namespace RE4_SMX_TOOL
                     res = c + res;
                     negative = true;
                 }
-
-                if (Dot == false && c == '.')
+                else if (dot == false && c == '.')
                 {
                     res += c;
-                    Dot = true;
+                    dot = true;
                 }
-                if (char.IsDigit(c))
+                else if (char.IsDigit(c))
                 {
                     res += c;
                 }
@@ -89,48 +87,5 @@ namespace RE4_SMX_TOOL
             return res;
         }
 
-        public static short ParseFloatToShort(float value)
-        {
-            string sv = value.ToString("F", System.Globalization.CultureInfo.InvariantCulture).Split('.')[0];
-            int iv = 0;
-            try
-            {
-                iv = int.Parse(sv, System.Globalization.NumberStyles.Integer);
-            }
-            catch (Exception)
-            {
-            }
-            if (iv > short.MaxValue)
-            {
-                iv = short.MaxValue;
-            }
-            else if (iv < short.MinValue)
-            {
-                iv = short.MinValue;
-            }
-            return (short)iv;
-        }
-
-        public static ushort ParseDoubleToUshort(double value)
-        {
-            string sv = value.ToString("F", System.Globalization.CultureInfo.InvariantCulture).Split('.')[0];
-            int iv = 0;
-            try
-            {
-                iv = int.Parse(sv, System.Globalization.NumberStyles.Integer);
-            }
-            catch (Exception)
-            {
-            }
-            if (iv > ushort.MaxValue)
-            {
-                iv = ushort.MaxValue;
-            }
-            else if (iv < ushort.MinValue)
-            {
-                iv = ushort.MinValue;
-            }
-            return (ushort)iv;
-        }
     }
 }
